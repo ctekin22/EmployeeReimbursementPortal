@@ -25,9 +25,9 @@ Delete User: Managers can delete a user, including any related reimbursements.
 
 Tech Stack
 
-Back End: Java, Spring Boot, Spring Data, Node.js , PostgreSQL
+Back End: Java, Spring Boot, Spring Data, Node.js, PostgreSQL
 
-Front End: React, TypeScript, HTML,CSS
+Front End: React, TypeScript, HTML, CSS
 
 Contributors
 Cansu TEKIN
