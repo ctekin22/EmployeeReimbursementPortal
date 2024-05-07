@@ -1,0 +1,54 @@
+/* Style for the register container */
+.register {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* Style for the registration text container */
+.reg-text-container {
+    text-align: center; /* Center text horizontally */
+}
+
+h1 {
+    color: #333; /* Heading color */
+    margin-bottom: 40px; /* Add margin below the heading */
+    font-size: 100px;
+  }
+
+/* Style for headings */
+.reg-text-container h1 {
+    color: #333; /* Heading color */
+    font-size: 30px; /* Increase font size for h1 */
+    margin-bottom: 20px; /* Add some space below h1 */
+}
+
+/* Style for registration input containers */
+.reg-container {
+    margin-bottom: 20px; /* Add some space between input containers */
+}
+
+/* Style for registration input fields */
+.reg-container input {
+    width: 100%; /* Make input fields fill their containers */
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 5px; /* Add border radius to input fields */
+}
+
+/* Style for registration buttons */
+.reg-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px; /* Add margin between buttons */
+}
+
+/* Style for registration buttons on hover */
+.reg-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}

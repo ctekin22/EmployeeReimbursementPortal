@@ -1,0 +1,59 @@
+/* Center-align text in elements with the "App" class */
+.App {
+  text-align: center;
+}
+
+/* Set background image for the body */
+body {
+  background-image: url(../public/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Style for login button */
+.log-button {
+  position: fixed; /* Position the button fixed */
+  top: 0px; /* Adjust top position as needed */
+  right: 0px; /* Adjust right position as needed */
+  z-index: 999; /* Ensure the button appears on top of other content */
+}
+
+/* Styling for the app logo */
+.App-logo {
+  height: 40vmin; /* Set height of logo */
+  pointer-events: none; /* Disable pointer events on logo */
+}
+
+/* Animation for the app logo spin */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Apply animation to logo */
+  }
+}
+
+/* Styling for the app header */
+.App-header {
+  background-color: #282c34; /* Set background color */
+  min-height: 100vh; /* Set minimum height of header */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center-align items horizontally */
+  justify-content: center; /* Center-align items vertically */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* Set text color */
+}
+
+/* Styling for links within the app */
+.App-link {
+  color: #61dafb; /* Set link color */
+}
+
+/* Keyframes for spinning the app logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Rotate from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate to 360 degrees */
+  }
+}

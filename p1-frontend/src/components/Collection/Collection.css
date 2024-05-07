@@ -1,0 +1,75 @@
+.collection-container {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  
+  #status {
+    margin-bottom: 20px;
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .table-container {
+   
+    width: 80%; /* Adjust the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    padding: 20px;
+  }
+  
+  table {  
+    width: 100%;
+    border-collapse: separate; /* Use separate border model */
+    border-spacing: 0; /* Remove spacing between table cells */
+    background-color: rgba(240, 240, 240, 0.8);
+    border-radius: 5px; /* Rounded table corners */
+  }
+  
+  th, td {
+    border: 1px solid #ccc; /* Add border to table cells */
+  
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff; /* Alternate row background color */
+  }
+  
+  .col-button{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  } 
+
+  .col1-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px; /* Add margin between buttons */
+  } 
+  
+  .col-button:hover, .col1-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .col-button:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  

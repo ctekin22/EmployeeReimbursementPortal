@@ -1,0 +1,33 @@
+
+
+.man-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.man-port {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.hom-button{
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px; /* Add margin between buttons */
+}
+
+.hom-button:hover, .log-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}

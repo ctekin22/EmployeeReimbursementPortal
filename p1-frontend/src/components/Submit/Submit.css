@@ -1,0 +1,78 @@
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(240, 240, 240, 0);
+  }
+  
+  h3 {
+    color: #333; /* Heading color */
+    margin-bottom: 40px; /* Add margin below the heading */
+    font-size: 40px;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin below the inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .desc {
+    height: 50px;
+    width: 250px; /* Set the width of the description input */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin below the description input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increase font size for description */
+  }
+  .desc::placeholder {
+    text-align: center; /* Align placeholder text to center for description input */
+  }
+
+  .amount::placeholder {
+    text-align: center; /* Align placeholder text to center for description input */
+  }
+  
+  .amount {
+    width: 250px; /* Set the width of the amount input */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Keep font size for amount */
+    margin-bottom: 10px; /* Add margin below the amount input */
+  }
+  
+  
+  .poke-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px; /* Add margin between buttons */
+  }
+  
+  .poke-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add margin to separate the navbar from the content */
+  }
+  

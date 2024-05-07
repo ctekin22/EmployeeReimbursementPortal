@@ -1,0 +1,85 @@
+/* App.css */
+
+.emp-page {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  
+  .log-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  h1 {
+    margin-bottom: 25px; /* Add margin below the heading */
+  }
+  
+  .table-container {
+   
+    width: 80%; /* Adjust the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    padding: 20px;
+  }
+  
+  table {  
+    width: 100%;
+    border-collapse: separate; /* Use separate border model */
+    border-spacing: 0; /* Remove spacing between table cells */
+    background-color: rgba(240, 240, 240, 0.8);
+    border-radius: 5px; /* Rounded table corners */
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc; /* Add border to table cells */
+  
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff; /* Alternate row background color */
+  }
+  
+  .del-button {
+    background-color: #dc3545; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    padding: 8px 16px; /* Adjust padding */
+    cursor: pointer; /* Show pointer on hover */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .del-button:hover {
+    background-color: #c82333; /* Change background color on hover */
+  }
+  
+  .back-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px; /* Add margin between buttons */
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
